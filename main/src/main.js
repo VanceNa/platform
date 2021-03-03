@@ -20,6 +20,12 @@ const apps = [
     container: "#container2",
     activeRule: "/vue2",
   },
+  {
+    name: "vueApp3",
+    entry: "//localhost:30000",
+    container: "#container3",
+    activeRule: "/vue3",
+  },
 ];
 registerMicroApps(apps); //注册应用
 // setDefaultMountApp("/app-vue"); //默认进入的子应用

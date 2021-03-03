@@ -11,21 +11,21 @@
           </el-menu>
         </el-aside>
         <el-main>
-          <main></main>
+          <main>
+            主应用
+          </main>
           <div id="container2"></div>
           <div id="container"></div>
+          <div id="container3"></div>
         </el-main>
       </el-container>
     </el-container>
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
   components: {
-    // HelloWorld,
   },
   data() {
     return {};

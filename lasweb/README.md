@@ -1,4 +1,4 @@
-# qiankun-vue
+# lasweb
 
 ## Project setup
 ```

@@ -1,4 +1,4 @@
-# qiankun-vue
+# platform
 
 ## Project setup
 ```

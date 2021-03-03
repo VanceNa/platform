@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="platform-app">
     <img alt="Vue logo" src="./assets/logo.png" />
     child --vue
     <div id="nav">
@@ -14,7 +14,7 @@
 <script>
 </script>
 <style scoped>
-#app {
+#platform-app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

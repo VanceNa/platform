@@ -1,4 +1,4 @@
-# qiankun-main
+# main
 
 ## Project setup
 ```
