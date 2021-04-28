@@ -1,11 +1,18 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
+import axios from '@/util/http.js'
+import global_ from './global.js'
+
+import store from './store/index'
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
+Vue.prototype.axios = axios
+Vue.prototype.GLOBAL = global_
+
 import { registerMicroApps, start, setDefaultMountApp } from "qiankun";
 const apps = [
   {
@@ -37,5 +44,6 @@ start({
 
 new Vue({
   router,
+  store,
   render: (h) => h(App),
 }).$mount("#app");
